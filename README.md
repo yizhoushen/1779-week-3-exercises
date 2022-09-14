@@ -53,4 +53,6 @@ https://www.geeksforgeeks.org/python-using-for-loop-in-flask/
 
 Note: your app will be running on http://[your-pirvate-ip]:5000/collatz_form_template 
 
-## Once you have finished the exercises, go to PCRS to answer the questions for Week 3: PCRS: https://pcrs.teach.cs.toronto.edu/ECE1779-2022-09/content/quests
+***
+
+### Once you have finished the exercises, go to [PCRS](https://pcrs.teach.cs.toronto.edu/ECE1779-2022-09/content/quests) to answer the questions for Week 3.
