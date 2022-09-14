@@ -1,6 +1,6 @@
 ### Week 3 Flask Exercises
 
-Follow the instructions below and complete the following exercises.
+Follow the instructions below and complete the following exercises. These exercises will help you to complete questions for your participation mark. 
 
 ## Install Flask
 
