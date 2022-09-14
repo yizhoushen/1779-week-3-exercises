@@ -17,9 +17,9 @@ def collatz_form():
         <body>
             <form method='get' action='/collatz'>
             
-            <!-- student code starts here -->
+            <!-- your code starts here -->
 
-            <!-- end of student code -->
+            <!-- end of your code -->
 
 
             </form>

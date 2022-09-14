@@ -39,7 +39,7 @@ In this part, you will complete the html form to allow the user to submit an int
 Note: your app will be running on http://[your-pirvate-ip]:5000/collatz_form
 
 
-## Part 3: Complete the exercises in the Part3 folder:
+## Part 4: Complete the exercises in the Part4 folder:
 
 In this part, you will use templates rather than creating html emded in the python code.
 
