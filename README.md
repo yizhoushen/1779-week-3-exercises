@@ -37,7 +37,7 @@ Note: your app will be running on http://[your-pirvate-ip]:5000/collatz_form
 
 ## Part 4: Complete the exercises in the Part4 folder:
 
-In this part, you will use templates rather than creating html emded in the python code.
+In this part, you will use templates rather than creating html embedded in the python code.
 
 Here are some resources for working with templates.
 
