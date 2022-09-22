@@ -20,7 +20,7 @@ Note: your app will be running on http://[your-pirvate-ip]:5000/time
 ## Part 2: Complete the exercises in the Part2 folder:
 
 1. Add code in collatzSteps.py to parse the integer from the url and set the variable "n" equal to this value. Use the request object to get the number passed in via the url. 
-2. Add code validate that the input is an integer, and to return an error message to the user if they try to set n as a non-integer type.
+2. Add code to validate that the input is an integer, and to return an error message to the user if they try to set n as a non-integer type.
 3. Run the Flask app locally on your machine to verify if your webpage matches part2_solution.jpg.
 
 Note: your app will be running on http://[your-pirvate-ip]:5000/collatz?n=5
