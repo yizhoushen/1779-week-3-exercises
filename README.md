@@ -10,10 +10,6 @@ https://flask.palletsprojects.com/en/2.2.x/installation/
 
 https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
-```
-% python -m flask --app [file-name] run  
-``` 
-
 ## Part 1: Complete the exercises in the Part1 folder:
 
 1. Modify one line of code in currentTime.py to get the current date and time.
