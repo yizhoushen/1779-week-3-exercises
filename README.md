@@ -1,6 +1,6 @@
 ### Week 3 Flask Exercises
 
-Follow the instructions below and complete the following exercises.
+Follow the instructions below and complete the following exercises. These exercises will help you to complete questions for your participation mark. 
 
 ## Install Flask
 
@@ -10,11 +10,9 @@ https://flask.palletsprojects.com/en/2.2.x/installation/
 
 https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
-```
-% python -m flask --app [file-name] run  
-``` 
-
 ## Part 1: Complete the exercises in the Part1 folder:
+
+In this part, you will update a flask application so that it displays the current date and time whenever the webpage is refreshed.
 
 1. Modify one line of code in currentTime.py to get the current date and time.
 2. Run the Flask app locally on your machine to verify if your webpage matches part1_solution.jpg.
@@ -23,8 +21,10 @@ Note: your app will be running on http://[your-pirvate-ip]:5000/time
 
 ## Part 2: Complete the exercises in the Part2 folder:
 
+In this part, you will update a flask application that calculates collatz steps using the parameter n specified by the user in the webpage URL.
+
 1. Add code in collatzSteps.py to parse the integer from the url and set the variable "n" equal to this value. Use the request object to get the number passed in via the url. 
-2. Add code validate that the input is an integer, and to return an error message to the user if they try to set n as a non-integer type.
+2. Add code to validate that the input is an integer, and to return an error message to the user if they try to set n as a non-integer type.
 3. Run the Flask app locally on your machine to verify if your webpage matches part2_solution.jpg.
 
 Note: your app will be running on http://[your-pirvate-ip]:5000/collatz?n=5
@@ -41,7 +41,7 @@ Note: your app will be running on http://[your-pirvate-ip]:5000/collatz_form
 
 ## Part 4: Complete the exercises in the Part4 folder:
 
-In this part, you will use templates rather than creating html emded in the python code.
+In this part, you will use templates rather than creating html embedded in the python code.
 
 Here are some resources for working with templates.
 
