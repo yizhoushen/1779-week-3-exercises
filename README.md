@@ -46,8 +46,8 @@ In this part, you will use templates rather than creating html embedded in the p
 
 Here are some resources for working with templates.
 
-https://flask.palletsprojects.com/en/1.1.x/templating/
-https://www.geeksforgeeks.org/python-using-for-loop-in-flask/
+- https://flask.palletsprojects.com/en/1.1.x/templating/
+- https://www.geeksforgeeks.org/python-using-for-loop-in-flask/
 
 1. Modify collatz.html by adding the contents of the loop so that template will display the collatz steps.
 2. Run the Flask app locally on your machine to verify that your output matches part4_solution.jpg. 
