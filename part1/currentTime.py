@@ -1,16 +1,16 @@
-#package includes functions that provide day and time info
-import datetime  
+# package includes functions that provide day and time info
+import datetime
 from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/time')
 def example1():
-    
     # use the datetime python module to obtain the current time
     # and store it in variable "time"
     time = 0
-    
+
     response = """<!DOCTYPE html>
                   <html>
                       <p>
@@ -21,7 +21,6 @@ def example1():
                   """
 
     return response.format(time)
-
 
 
 app.run(host='0.0.0.0')
