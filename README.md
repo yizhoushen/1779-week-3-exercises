@@ -33,8 +33,9 @@ Note: your app will be running on http://[your-pirvate-ip]:5000/collatz?n=5
 
 In this part, you will complete the html form to allow the user to submit an integer value rather than using the URL paramater as you did in Part 2.
 
-1. Complete the body of the form in collatzStepsForm.py so that the user can input the integer value.
-2. Run the Flask app locally on your machine to verify if your webpage matches part3_solution.jpg.
+1. Copy your solution from Part1 into collatzSteps.py 
+2. Complete the body of the form in collatzStepsForm.py so that the user can input the integer value.
+3. Run the Flask app locally on your machine to verify if your webpage matches part3_solution.jpg.
 
 Note: your app will be running on http://[your-pirvate-ip]:5000/collatz_form
 
