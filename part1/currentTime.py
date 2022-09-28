@@ -9,6 +9,7 @@ app = Flask(__name__)
 def example1():
     # use the datetime python module to obtain the current time
     # and store it in variable "time"
+    
     time = 0
 
     response = """<!DOCTYPE html>
