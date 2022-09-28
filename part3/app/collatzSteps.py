@@ -15,10 +15,9 @@ def collatz():
 
     """
 
-    if request.args.get('n').isdigit() == False:
-        return "Error! All inputs most be of type int"
-
-    n = original = int(request.args.get('n'))
+    # Your code from Part2 here.
+    
+    # End of your code.
     
     steps = []
     
