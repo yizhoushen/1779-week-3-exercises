@@ -4,6 +4,7 @@ from flask import render_template, request
 
 app = Flask(__name__)
 
+
 @app.route('/collatz')
 def collatz():
     """
@@ -12,12 +13,12 @@ def collatz():
 
     """
 
-# your code starts here
+    # your code starts here
 
-# end of your code
+    # end of your code
 
     steps = []
-    
+
     while n != 1:
         if n % 2 == 0:
             n = n // 2
@@ -33,16 +34,14 @@ def collatz():
     html = """
         <!DOCTYPE html >
             <body>
-                <p>Collantz series for {0} </p>
+                <p>Collatz series for {0} </p>
                 <p>{1}</p>
                 <p>Number of steps = {2}</p>
             </body>
         </html>
     """
 
-    return html.format(original,series,len(steps))
+    return html.format(original, series, len(steps))
 
 
 app.run(host='0.0.0.0')
-    
-
