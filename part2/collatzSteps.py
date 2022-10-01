@@ -5,7 +5,7 @@ from flask import render_template, request
 app = Flask(__name__)
 
 
-@app.route('/collatz')
+@app.route('/collatz', methods=['GET'])
 def collatz():
     """
     Create a web page with the number of steps it takes to reach 1, by applying 
@@ -14,7 +14,13 @@ def collatz():
     """
 
     # your code starts here
-
+    if 'n' not in request.args:
+        return "Missing argument!"
+    input_n = request.args.get('n')
+    if not input_n.isdigit():
+        return "Argument is not integer!"
+    original = int(input_n)
+    n = original
     # end of your code
 
     steps = []

@@ -16,7 +16,13 @@ def collatz():
     """
 
     # Your code from Part2 here.
-    
+    if 'n' not in request.args:
+        return "Missing argument!"
+    input_n = request.args.get('n')
+    if not input_n.isdigit():
+        return "Argument is not integer!"
+    original = int(input_n)
+    n = original
     # End of your code.
     
     steps = []

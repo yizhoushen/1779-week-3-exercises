@@ -18,7 +18,8 @@ def collatz_form():
             <form method='get' action='/collatz'>
             
             <!-- your code starts here -->
-
+            <label>Input</label>
+                    <input type='text' name='n'>
             <!-- end of your code -->
 
 

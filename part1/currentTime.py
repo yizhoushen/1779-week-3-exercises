@@ -10,7 +10,7 @@ def example1():
     # use the datetime python module to obtain the current time
     # and store it in variable "time"
     
-    time = 0
+    time = datetime.datetime.now()
 
     response = """<!DOCTYPE html>
                   <html>
